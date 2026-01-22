@@ -1,0 +1,20 @@
+{
+  "name": "bodrum-full",
+  "version": "1.0.0",
+  "description": "Telegram WebApp + Bot + PostgreSQL (single folder)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "bot": "node bot.js",
+    "dev": "concurrently \"npm run start\" \"npm run bot\""
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.17.1",
+    "telegraf": "^4.15.6"
+  }
+}
